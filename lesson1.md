@@ -1,10 +1,10 @@
 JS is a dynamic  language -> it needs to run before it check the error in the code
-Type_script -> is a type static language -> check the code contain any errrors before running.
+Type_script -> is a type static language -> check the code contain any errors before running.
 
 so Type-Script 
   - tells us the bugs into our code before running the code itself(awasome tool)
   - now we will use tsc compiler to compile our code first to check it first then convert  it into .js file that you can run it after a while.
-  -  to use tsc;
+  -  to use tsc(typescript complier) ;
     -  npm install -g typescript
 
     ex;
@@ -45,7 +45,7 @@ it uses older version to compile the code for you.
 
 ----
 to sum up this language;
-  - it has type-checker (this is  a strictness ) to check the bugs into the code.
+  - it has type-checker (this is a strictness ) to check the bugs into the code.
   - try to define the type of variable that you write in order to test it using type-checker try to not leave the variable without any declaration as this make typescript uses ;  any as  type for the variables.
   - try to handle null,undefined variables  in order to  prevent the mistake.
 
